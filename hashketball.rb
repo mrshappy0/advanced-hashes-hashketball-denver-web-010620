@@ -210,9 +210,7 @@ def big_shoe_rebounds
       if attribute == :players
         data.each {|player|
           binding.pry
-          # if player = :shoe
-          #   return player[
-          # end
+          returen player[:shoe]
         }
       end 
     }
